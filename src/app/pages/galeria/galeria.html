@@ -1,0 +1,30 @@
+<div class="container">
+
+  <h2>Nuestra Colección</h2>
+
+  <div class="cards">
+
+    <div class="card" *ngFor="let manilla of manillas">
+
+      <img
+        [src]="manilla.imagen"
+        [alt]="manilla.nombre"
+      >
+
+      <h3>{{ manilla.nombre }}</h3>
+
+      <p>{{ manilla.precio }}</p>
+
+      <a
+        class="btn"
+        target="_blank"
+        href="https://wa.me/573001234567"
+      >
+        Comprar
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
