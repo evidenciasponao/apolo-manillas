@@ -1,4 +1,63 @@
 .contacto {
   text-align: center;
-  padding: 50px;
+  padding: 1px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #0a1633;
+}
+
+.contacto p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contacto-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+}
+
+.imagen-contacto {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }

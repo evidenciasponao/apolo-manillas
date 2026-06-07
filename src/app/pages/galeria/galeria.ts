@@ -11,19 +11,19 @@ export class Galeria {
 
   manillas = [
     {
+      nombre: 'Manilla Negra',
+      precio: '$40.000 COP',
+      imagen: 'images/manilla1.jpg'
+    },
+    {
       nombre: 'Manilla Roja',
-      precio: '$10',
-      imagen: 'assets/manilla1.jpg'
+      precio: '$50.000 COP',
+      imagen: 'images/manilla2.jpg'
     },
     {
       nombre: 'Manilla Azul',
-      precio: '$12',
-      imagen: 'assets/manilla2.jpg'
-    },
-    {
-      nombre: 'Manilla Negra',
-      precio: '$15',
-      imagen: 'assets/manilla3.jpg'
+      precio: '$60.000 COP',
+      imagen: 'images/manilla3.jpg'
     }
   ];
 
