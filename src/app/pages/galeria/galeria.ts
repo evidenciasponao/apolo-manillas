@@ -14,19 +14,19 @@ export class Galeria {
       nombre: 'Manilla Negra',
       precio: '$40.000 COP',
       imagen: 'images/manilla1.jpg',
-      descripcion: 'Diseño elegante y resistente para uso diario.'
+      descripcion: 'Diseño elegante.'
     },
     {
       nombre: 'Manilla Roja',
       precio: '$50.000 COP',
       imagen: 'images/manilla2.jpg',
-      descripcion: 'Modelo artesanal con acabado premium.'
+      descripcion: 'Acabado premium.'
     },
     {
       nombre: 'Manilla Azul',
       precio: '$60.000 COP',
       imagen: 'images/manilla3.jpg',
-      descripcion: 'Diseño exclusivo inspirado en tonos marinos.'
+      descripcion: 'Diseño exclusivo.'
     }
   ];
 
