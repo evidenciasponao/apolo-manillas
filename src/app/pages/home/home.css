@@ -146,5 +146,179 @@
     .hero p {
         font-size: 1.1rem;
     }
+    
 
+}
+
+
+
+
+/* ==========================
+   BENEFICIOS
+========================== */
+
+.beneficios {
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.beneficios h2 {
+
+    font-size: 3rem;
+
+    color: #0a1633;
+
+    margin-bottom: 50px;
+}
+
+.beneficios-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 30px;
+}
+
+.beneficio-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.08);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.beneficio-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.15);
+}
+
+.beneficio-card span {
+
+    font-size: 3rem;
+
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.beneficio-card h3 {
+
+    color: #08142f;
+
+    margin-bottom: 15px;
+
+    font-size: 1.4rem;
+}
+
+.beneficio-card p {
+
+    color: #666;
+
+    line-height: 1.6;
+}
+
+
+
+/* ==========================
+   TESTIMONIOS
+========================== */
+
+.testimonios {
+
+    padding: 80px 20px;
+
+    background: #f8f9fb;
+
+    text-align: center;
+}
+
+.testimonios h2 {
+
+    font-size: 3rem;
+
+    color: #0a1633;
+
+    margin-bottom: 50px;
+}
+
+.testimonios-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+}
+
+.testimonio-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.08);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.testimonio-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.15);
+}
+
+.estrellas {
+
+    font-size: 1.3rem;
+
+    margin-bottom: 15px;
+}
+
+.testimonio-card p {
+
+    color: #555;
+
+    line-height: 1.7;
+
+    font-style: italic;
+
+    margin-bottom: 20px;
+}
+
+.testimonio-card h4 {
+
+    color: #08142f;
+
+    margin: 0;
 }
