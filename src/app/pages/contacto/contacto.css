@@ -61,3 +61,33 @@
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
+
+
+/* css boton whatsapp */
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre el ícono y el texto */
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); /* Degradado corporativo de WhatsApp */
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ajusta a la fuente de tu web */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 6px; /* Redondeado similar al de tu botón de Instagram */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Efecto al pasar el mouse por encima (Hover) */
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Efecto al hacer clic (Active) */
+.btn-whatsapp:active {
+  transform: translateY(0);
+}
