@@ -27,4 +27,14 @@ export class Galeria {
     }
   ];
 
+  imagenSeleccionada: string | null = null;
+
+  abrirImagen(imagen: string) {
+    this.imagenSeleccionada = imagen;
+  }
+
+  cerrarImagen() {
+    this.imagenSeleccionada = null;
+  }
+
 }

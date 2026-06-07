@@ -6,10 +6,11 @@
 
     <div class="card" *ngFor="let manilla of manillas">
 
-      <img
-        [src]="manilla.imagen"
-        [alt]="manilla.nombre"
-      >
+<img
+  [src]="manilla.imagen"
+  [alt]="manilla.nombre"
+  (click)="abrirImagen(manilla.imagen)"
+  class="imagen-click">
 
       <h3>{{ manilla.nombre }}</h3>
 
@@ -26,5 +27,19 @@
     </div>
 
   </div>
+
+</div>
+
+<!-- Modal -->
+
+<div
+  class="modal"
+  *ngIf="imagenSeleccionada"
+  (click)="cerrarImagen()">
+
+  <img
+    [src]="imagenSeleccionada"
+    class="modal-img"
+    (click)="$event.stopPropagation()">
 
 </div>
