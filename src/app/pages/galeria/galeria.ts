@@ -13,28 +13,31 @@ export class Galeria {
     {
       nombre: 'Manilla Negra',
       precio: '$40.000 COP',
-      imagen: 'images/manilla1.jpg'
+      imagen: 'images/manilla1.jpg',
+      descripcion: 'Diseño elegante y resistente para uso diario.'
     },
     {
       nombre: 'Manilla Roja',
       precio: '$50.000 COP',
-      imagen: 'images/manilla2.jpg'
+      imagen: 'images/manilla2.jpg',
+      descripcion: 'Modelo artesanal con acabado premium.'
     },
     {
       nombre: 'Manilla Azul',
       precio: '$60.000 COP',
-      imagen: 'images/manilla3.jpg'
+      imagen: 'images/manilla3.jpg',
+      descripcion: 'Diseño exclusivo inspirado en tonos marinos.'
     }
   ];
 
-  imagenSeleccionada: string | null = null;
+  manillaSeleccionada: any = null;
 
-  abrirImagen(imagen: string) {
-    this.imagenSeleccionada = imagen;
+  abrirManilla(manilla: any) {
+    this.manillaSeleccionada = manilla;
   }
 
-  cerrarImagen() {
-    this.imagenSeleccionada = null;
+  cerrarManilla() {
+    this.manillaSeleccionada = null;
   }
 
 }

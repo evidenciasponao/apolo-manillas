@@ -6,11 +6,11 @@
 
     <div class="card" *ngFor="let manilla of manillas">
 
-<img
-  [src]="manilla.imagen"
-  [alt]="manilla.nombre"
-  (click)="abrirImagen(manilla.imagen)"
-  class="imagen-click">
+      <img
+        [src]="manilla.imagen"
+        [alt]="manilla.nombre"
+        (click)="abrirManilla(manilla)"
+        class="imagen-click">
 
       <h3>{{ manilla.nombre }}</h3>
 
@@ -19,8 +19,7 @@
       <a
         class="btn-whatsapp"
         target="_blank"
-        href="https://wa.me/573114147623?text=Hola,%20me%20interesa%20la%20manilla%20{{ manilla.nombre }}%20que%20vi%20en%20su%20galería."
-      >
+        href="https://wa.me/573114147623?text=Hola,%20me%20interesa%20la%20manilla%20{{ manilla.nombre }}%20que%20vi%20en%20su%20galería.">
         Comprar por WhatsApp
       </a>
 
@@ -30,16 +29,40 @@
 
 </div>
 
-<!-- Modal -->
+<!-- MODAL -->
 
 <div
   class="modal"
-  *ngIf="imagenSeleccionada"
-  (click)="cerrarImagen()">
+  *ngIf="manillaSeleccionada"
+  (click)="cerrarManilla()">
 
-  <img
-    [src]="imagenSeleccionada"
-    class="modal-img"
+  <div
+    class="modal-content"
     (click)="$event.stopPropagation()">
+
+    <img
+      [src]="manillaSeleccionada.imagen"
+      [alt]="manillaSeleccionada.nombre">
+
+    <h3>
+      {{ manillaSeleccionada.nombre }}
+    </h3>
+
+    <p class="precio">
+      {{ manillaSeleccionada.precio }}
+    </p>
+
+    <p class="descripcion">
+      {{ manillaSeleccionada.descripcion }}
+    </p>
+
+    <a
+      class="btn-whatsapp"
+      target="_blank"
+      href="https://wa.me/573114147623?text=Hola,%20me%20interesa%20la%20{{ manillaSeleccionada.nombre }}">
+      Comprar por WhatsApp
+    </a>
+
+  </div>
 
 </div>
