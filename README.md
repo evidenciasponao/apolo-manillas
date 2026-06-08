@@ -1,6 +1,19 @@
 # Apolo Manillas
 
-Sitio web desarrollado en Angular para la exhibición y promoción de manillas artesanales.
+Sitio web desarrollado para la promoción y venta de manillas artesanales mediante catálogo digital e integración con WhatsApp.
+
+## Imagenes
+<img width="1917" height="1010" alt="image" src="https://github.com/user-attachments/assets/2127d6b8-4ab6-4877-aede-489e5c069a91" />
+<img width="1917" height="1010" alt="image" src="https://github.com/user-attachments/assets/a942ea54-87ad-4e9b-821f-f95f873af706" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a9aafcb-e2f1-4970-8f90-9612a7aa51a1" />
+
+
+
+## Demo
+
+🔗 Aplicación en producción:
+
+[https://tudominio.com](https://www.apolo-manillas.shop/)
 
 ## Características
 
@@ -19,46 +32,9 @@ Sitio web desarrollado en Angular para la exhibición y promoción de manillas a
 - TypeScript
 - HTML5
 - CSS3
-- Azure App Service
-
-## Instalación
-
-Clonar el repositorio:
-
-git clone https://github.com/evidenciasponao/apolo-manillas.git
-
-Instalar dependencias:
-
-npm install
-
-Ejecutar proyecto:
-
-ng serve
-
-Abrir:
-
-http://localhost:4200
-
-## Estructura del proyecto
-
-src/
-├── app/
-│ ├── home/
-│ ├── galeria/
-│ ├── contacto/
-│ ├── navbar/
-│ └── footer/
-├── assets/
-└── styles/
-
-## Autor
-
-Anderson M.
+- Microsoft Azure
 
 ## Licencia
 
-Copyright © 2025 Apolo Manillas.
-
+Software propietario desarrollado para Apolo Manillas.
 Todos los derechos reservados.
-
-Este software fue desarrollado para uso exclusivo de Apolo Manillas. No está permitida su reproducción, distribución o modificación sin autorización expresa del propietario.
