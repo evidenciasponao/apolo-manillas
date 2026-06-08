@@ -12,7 +12,7 @@ Sitio web desarrollado para la promoción y venta de manillas artesanales median
 
 🔗 Aplicación en producción:
 
-[https://tudominio.com](https://www.apolo-manillas.shop/)
+[https://www.apolo-manillas.shop/](https://www.apolo-manillas.shop/)
 
 ## Características
 
